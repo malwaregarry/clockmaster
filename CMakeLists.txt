@@ -27,6 +27,7 @@ include(hello_imgui_add_app)
 ##########################################################
 # Call hello_imgui_add_app
 hello_imgui_add_app(hello_world hello_world.main.cpp)
+hello_imgui_add_app(docking_test docking_test.cpp)
 
 # Now you can build your app with
 #     mkdir build && cd build && cmake .. && cmake --build .
